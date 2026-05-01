@@ -15,7 +15,7 @@ import com.example.library.service.FeedbackService;
 
 @RestController
 @RequestMapping("/api/feedback")
-@CrossOrigin(origins = "http://localhost:5173")
+
 public class FeedbackController {
 
     @Autowired

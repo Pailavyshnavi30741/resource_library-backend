@@ -20,7 +20,10 @@ import com.example.library.service.UserService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://resourcelibraryapp.vercel.app")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://resourcelibraryapp.vercel.app"
+})
 public class AuthController {
 
     @Autowired
